@@ -1,2 +1,0 @@
-# mashudicastol.github.io
-MashudiBlog
