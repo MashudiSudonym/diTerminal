@@ -3,7 +3,7 @@ layout: post
 title:  "Tugas ~ Sistem File Linux"
 date:   2015-04-17 16:31:51
 categories: tugas linux open source
-comments: false
+comments: true
 ---
 Pada ringkasan materi ini akan membahas tentang dasar teori dari :
 
