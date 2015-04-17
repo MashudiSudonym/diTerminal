@@ -10,11 +10,10 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+        <!-- Disqus Comments -->
+        {% include comments.html %} 
       </div>
     </div>
-
-    <!-- Disqus Comments -->
-    {% include comments.html %}
 
     {% include footer.html %}
 
