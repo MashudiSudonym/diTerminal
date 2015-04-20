@@ -88,11 +88,19 @@ _**Keterangan :**_
 *chmod* dapat pula menggunakan bilangan octal sebagai berikut :
 
 	r 	w 	x
-	4	2 	1 	=	7
+	4	2 	1 	=	7 <-- hasil dari bilangan oktal yang dijumlahkan
+
+_**r**_ (read) dilambangkan _**4**_ dalam bilangan octal.
+
+_**w**_ (write) dilambangkan _**2**_ dalam bilangan octal.
+
+_**x**_ (execute) dilambangkan _**1**_ dalam bilangan octal.
+
+
 
 # 3. **User Mask**
 
-Untuk menentukan ijin akses pada saat file atau direktori dibuat digunakan perintah _**umask**_. Untuk menghitung nilai default melalui _**umask**_ pada file, maka dapat dilakukan sebagai berikut :
+Contoh dalam penggunaan ijin akses pada poin 2 tadi adalah untuk menentukan ijin akses pada saat file atau direktori dibuat digunakan perintah _**umask**_. Untuk menghitung nilai default melalui _**umask**_ pada file, maka dapat dilakukan sebagai berikut :
 
 	Kreasi file (biasa)		6 6 6
 	Nilai umask			0 2 2
