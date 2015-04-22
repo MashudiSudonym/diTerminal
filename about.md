@@ -7,4 +7,4 @@ Muhamad Mashudi Ardi Winata, pemuda yang sedang menempuh pendidikan sarjana di U
 
 ***
 
-Blog ini dihosting di [Github](http://github.com/), dibuat menggunakan [Jekyl](http://jekyllrb.com/).
+Blog ini di hosting di [Github](http://github.com/), dibuat menggunakan [Jekyl](http://jekyllrb.com/).
