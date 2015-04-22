@@ -1,4 +1,4 @@
-# mashudicastol.github.io
+# mashudisudonym.github.io
 MashudiBlog
 
 powered by [GitHub Pages](http://pages.github.com) and [Jekyll](http://jekyllrb.com/)
