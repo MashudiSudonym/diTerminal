@@ -6,5 +6,5 @@ title: About
 
 ***
 
-Blog ini di hosting di [Github](http://github.com/), dibuat menggunakan [Jekyl](http://jekyllrb.com/).
+Blog ini di hosting di [Github](http://github.com/), dibuat menggunakan [Jekyll](http://jekyllrb.com/).
 
