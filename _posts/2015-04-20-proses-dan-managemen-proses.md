@@ -13,7 +13,7 @@ Ada 3 tipe proses, antara lain :
 
 * **Foreground**
 
-Proses yang diciptakan oleh pemakai pada terlinal (interaktif, dialog).
+Proses yang diciptakan oleh pemakai pada terminal (interaktif, dialog).
 
 * **Batch**
 
