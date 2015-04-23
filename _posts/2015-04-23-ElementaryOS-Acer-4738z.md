@@ -5,7 +5,7 @@ date:   2015-04-23 21:24:51
 categories: linux open source
 comments: true
 ---
-Baru kali ini bikin catatan yang spesifik sampai sebut merk dan tipe mesin tempur. :LoL .. Yah, ya udah, udah terlanjur juga, terus karena alasan **_Error pada setiap distro pasti berbeda pada setiap mesin (PC, laptop, dan lain sebagainnya)_**. Oke, catatan ini terkait dengan distro yang baru rilis pertengahan April 2015 :tada: , yang jadwal rilisnya tidak bisa ditunggu atau diprediksi baik itu oleh para pengamat, maupun dunia perdukunan xD Yap, itu adalah **_ElementaryOS Freya_**. Distro penerus dari versi sebelumnya si Luna, informasi tentang distro ini silahkan dibaca di web mereka _[http://elementary.io/](elementary.io)_.
+Baru kali ini bikin catatan yang spesifik sampai sebut merk dan tipe mesin tempur. :LoL .. Yah, ya udah, udah terlanjur juga, terus karena alasan **_Error pada setiap distro pasti berbeda pada setiap mesin (PC, laptop, dan lain sebagainnya)_**. Oke, catatan ini terkait dengan distro yang baru rilis pertengahan April 2015, yang jadwal rilisnya tidak bisa ditunggu atau diprediksi baik itu oleh para pengamat, maupun dunia perdukunan xD Yap, itu adalah **_ElementaryOS Freya_**. Distro penerus dari versi sebelumnya si Luna, informasi tentang distro ini silahkan dibaca di web mereka _[http://elementary.io/](elementary.io)_.
 
 ![tampilan ElementaryOS Freya di mesin Saya](/images/5.png)
 
@@ -83,4 +83,4 @@ _copy-paste baris-perbaris maka Anda tidak akan menemui kendala_
 
 Untuk web-browser bisa menggunakan Google Chrome, bisa menunduh di website Google Chrome.
 
-Sudah, cukup begitu hal yang Saya lakukan setelah install ElementaryOS 0.3 Freya di Laptop Acer 4738z. :octocat:
+Sudah, cukup begitu hal yang Saya lakukan setelah install ElementaryOS 0.3 Freya di Laptop Acer 4738z.
