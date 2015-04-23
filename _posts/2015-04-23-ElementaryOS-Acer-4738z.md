@@ -81,6 +81,6 @@ _copy-paste baris-perbaris maka Anda tidak akan menemui kendala_
 
 > sudo apt-get install ubuntu-restricted-extras flashplugin-installer pidgin libreoffice libreoffice-style-sifr inkscape gimp gimp-gmic build-essential rhythmbox sublime-text elementary-tweaks vlc transmission rar icedtea-7-plugin openjdk-7-jre acpi indicator-synapse conky conky-all conky-manager simplescreenrecorder simplescreenrecorder-lib:i386
 
-Untuk web-browser bisa menggunakan Google Chrome, bisa menunduh di website Google Chrome langsung.
+Untuk web-browser bisa menggunakan Google Chrome, bisa menunduh di website Google Chrome.
 
 Sudah, cukup begitu hal yang Saya lakukan setelah install ElementaryOS 0.3 Freya di Laptop Acer 4738z. :octocat:
