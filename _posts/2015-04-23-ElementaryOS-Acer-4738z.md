@@ -9,6 +9,8 @@ Baru kali ini bikin catatan yang spesifik sampai sebut merk dan tipe mesin tempu
 
 ![tampilan ElementaryOS Freya di mesin Saya](/images/5.png)
 
+Saya pakai _**ElementaryOS Freya 64-bit**_.
+
 Kalau di mesin Saya, yang perlu dilakukan untuk distro ini adalah :
 
 ## 1. **Memperbaiki Driver VGA**
