@@ -7,7 +7,9 @@
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    background: #ffffff;
+    width: 100%;
+    position: fixed;
 }
 
 .site-title {
@@ -170,6 +172,7 @@
 }
 
 .post-list {
+    margin-top: 50px;
     margin-left: 0;
     list-style: none;
 
@@ -194,6 +197,7 @@
  * Posts
  */
 .post-header {
+    margin-top: 50px;
     margin-bottom: $spacing-unit;
 }
 
