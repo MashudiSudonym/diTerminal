@@ -14,7 +14,7 @@ Daftar catatan yang Saya buat dalam bentuk E-Book.
 	
 
 #C
-*[Cara Pasang Situs WordPress PHP dengan Nginx, PHP5-FPM, dan MySQL menggunakan Ajenti V.pdf](https://copy.com/KRycySK3uaoYvHjU)
+* [Cara Pasang Situs WordPress PHP dengan Nginx, PHP5-FPM, dan MySQL menggunakan Ajenti V.pdf](https://copy.com/KRycySK3uaoYvHjU)
 
 #D
 	
@@ -53,7 +53,7 @@ Daftar catatan yang Saya buat dalam bentuk E-Book.
 	
 
 #P
-*[Panduan Install LAMP Server dan CMS Wordpress ~ sudonym.pdf](https://copy.com/PZhUcQZPvyWDCGaE)
+* [Panduan Install LAMP Server dan CMS Wordpress ~ sudonym.pdf](https://copy.com/PZhUcQZPvyWDCGaE)
 
 #Q
 	
