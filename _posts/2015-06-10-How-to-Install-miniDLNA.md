@@ -19,7 +19,7 @@ Tutorial cara install dan kofigurasi miniDLNA di ubuntu server 14.04, serta pand
 
 ## 3. Buat Folder Music, Video, Pictures di Direktori Home
 
-> mkdir Music Video Pictures
+> mkdir Music Videos Pictures
 
 ## 4. Backup dan Buat File Konfigurasi Minidlna
 
