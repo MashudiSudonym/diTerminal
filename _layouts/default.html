@@ -7,11 +7,15 @@
 
     {% include nav.html %}
 
-    {{ content }}
-    <!-- Disqus Comments -->
-    {% include comments.html %} 
-    <!-- Google Analytics-->
-    {% include google_analytics.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+        <!-- Disqus Comments -->
+        {% include comments.html %} 
+        <!-- Google Analytics-->
+        {% include google_analytics.html %}
+      </div>
+    </div>
 
     {% include footer.html %}
 
