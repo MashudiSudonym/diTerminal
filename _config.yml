@@ -1,17 +1,17 @@
 # Site settings
 title: Mashudi Blog
-tagline : 'Blog, Linux, Open Source, Tutorial, Desktop Art'
-
-#description: > # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
-
-
-#author
-url: "http://mashudisudonym.github.io" # the base hostname & protocol for your site
+header-img: img/home-bg.jpg
+email: muhamadmashudiardiwinata@gmail.com
+description: "Blog catatan kuliah, oprek linux, dan aplikasi Free Open Source Software (FOSS)"
+baseurl: ""
+url: "http://mashudisudonym.github.io"
 twitter_username: MashudiCastol
 github_username:  MashudiSudonym
+facebook_username:  muhamadmashudiardiwinata
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
