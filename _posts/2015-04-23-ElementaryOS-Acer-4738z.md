@@ -66,8 +66,6 @@ Langkah memperbaiki error sudah dilakukan, sekarang install aplikasi pendukung t
 
 _copy-paste baris-perbaris maka Anda tidak akan menemui kendala_
 
-> sudo add-apt-repository -y ppa:mpstark/elementary-tweaks-daily
-
 > sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
 
 > sudo apt-add-repository -y ppa:teejee2008/ppa
@@ -82,8 +80,10 @@ _copy-paste baris-perbaris maka Anda tidak akan menemui kendala_
 
 > sudo apt-get update
 
-> sudo apt-get install ubuntu-restricted-extras flashplugin-installer pidgin libreoffice libreoffice-style-sifr inkscape gimp gimp-gmic build-essential rhythmbox sublime-text elementary-tweaks vlc transmission rar icedtea-7-plugin openjdk-7-jre acpi indicator-synapse conky conky-all conky-manager simplescreenrecorder simplescreenrecorder-lib:i386
+> sudo apt-get install ubuntu-restricted-extras flashplugin-installer pidgin libreoffice libreoffice-style-sifr inkscape gimp gimp-gmic build-essential rhythmbox sublime-text vlc transmission rar icedtea-7-plugin openjdk-7-jre acpi indicator-synapse conky conky-all conky-manager simplescreenrecorder simplescreenrecorder-lib:i386
 
 Untuk web-browser bisa menggunakan Google Chrome, bisa menunduh di website Google Chrome.
+
+Install juga Elementary Tweak, untuk mempermudah pengubahan desktop pantheon [http://lmelinux.net/2015/08/19/new-version-of-elementary-tweaks-released-moved-to-a-new-repository/](http://lmelinux.net/2015/08/19/new-version-of-elementary-tweaks-released-moved-to-a-new-repository/).
 
 Sudah, cukup begitu hal yang Saya lakukan setelah install ElementaryOS 0.3 Freya di Laptop Acer 4738z.
