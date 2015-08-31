@@ -6,7 +6,7 @@ categories: tutorial
 comments: true
 ---
 
-Sebenarnya tulisan ini pernah Saya buat dalam bentuk e-book dan sekarang mau Saya buat bukan dalam bentuk e-book, namun karena Saya tidak menemukan file screenshot yang dulu digunakan untuk membuat tutorial versi e-booknya.
+Sebenarnya tulisan ini pernah Saya buat dalam bentuk e-book dan sekarang mau Saya buat bukan dalam bentuk e-book, namun karena Saya tidak menemukan file screenshot yang dulu digunakan untuk membuat tutorial versi e-booknya, mungkin Saya membatalkan niatan itu. Jadi sebagai ganti, akan Saya share link unduh e-book-nya.
 
 Untuk mendapatkan e-booknya bisa diunduh di
 
