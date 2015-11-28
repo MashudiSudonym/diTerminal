@@ -52,9 +52,6 @@ public class MisiEkstra extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         btBack = new javax.swing.JButton();
         btHome = new javax.swing.JButton();
-        btPraktikum9 = new javax.swing.JButton();
-        btPraktikum10 = new javax.swing.JButton();
-        btPraktikum11 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("diTerminal - Misi Ekstra");
@@ -74,7 +71,7 @@ public class MisiEkstra extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(318, 318, 318)
                 .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(321, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -100,36 +97,6 @@ public class MisiEkstra extends javax.swing.JFrame {
             }
         });
 
-        btPraktikum9.setBackground(new java.awt.Color(50, 113, 224));
-        btPraktikum9.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btPraktikum9.setForeground(new java.awt.Color(255, 255, 255));
-        btPraktikum9.setText("MISI PRAKTIKUM 9");
-        btPraktikum9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btPraktikum9ActionPerformed(evt);
-            }
-        });
-
-        btPraktikum10.setBackground(new java.awt.Color(50, 113, 224));
-        btPraktikum10.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btPraktikum10.setForeground(new java.awt.Color(255, 255, 255));
-        btPraktikum10.setText("MISI PRAKTIKUM 10");
-        btPraktikum10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btPraktikum10ActionPerformed(evt);
-            }
-        });
-
-        btPraktikum11.setBackground(new java.awt.Color(50, 113, 224));
-        btPraktikum11.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btPraktikum11.setForeground(new java.awt.Color(255, 255, 255));
-        btPraktikum11.setText("MISI PRAKTIKUM 11");
-        btPraktikum11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btPraktikum11ActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -137,32 +104,16 @@ public class MisiEkstra extends javax.swing.JFrame {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(57, 57, 57)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btPraktikum9, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
-                        .addComponent(btPraktikum10, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btBack)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btHome))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(btPraktikum11, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(222, 222, 222)))
+                .addComponent(btBack)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btHome)
                 .addGap(58, 58, 58))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(88, 88, 88)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btPraktikum9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btPraktikum10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
-                .addComponent(btPraktikum11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(57, 57, 57)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 309, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btBack, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btHome, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -171,28 +122,6 @@ public class MisiEkstra extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btPraktikum10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPraktikum10ActionPerformed
-        // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI PRAKTIKUM 10 akan tersedia di versi alpha 0.2",
-                "MISI PRAKTIKUM 10",
-                JOptionPane.INFORMATION_MESSAGE
-        );
-    }//GEN-LAST:event_btPraktikum10ActionPerformed
-
-    private void btPraktikum11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPraktikum11ActionPerformed
-        // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI PRAKTIKUM 11 akan tersedia di versi alpha 0.2",
-                "MISI PRAKTIKUM 11",
-                JOptionPane.INFORMATION_MESSAGE
-        );
-    }//GEN-LAST:event_btPraktikum11ActionPerformed
 
     private void btBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btBackActionPerformed
         // TODO add your handling code here:
@@ -207,17 +136,6 @@ public class MisiEkstra extends javax.swing.JFrame {
         this.dispose();
         new Main().setVisible(true);
     }//GEN-LAST:event_btHomeActionPerformed
-
-    private void btPraktikum9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPraktikum9ActionPerformed
-        // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI PRAKTIKUM 9 akan tersedia di versi alpha 0.2",
-                "MISI PRAKTIKUM 9",
-                JOptionPane.INFORMATION_MESSAGE
-        );
-    }//GEN-LAST:event_btPraktikum9ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -257,9 +175,6 @@ public class MisiEkstra extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btBack;
     private javax.swing.JButton btHome;
-    private javax.swing.JButton btPraktikum10;
-    private javax.swing.JButton btPraktikum11;
-    private javax.swing.JButton btPraktikum9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
