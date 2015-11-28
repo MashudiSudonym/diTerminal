@@ -64,7 +64,7 @@ public class HubungiDeveloper extends javax.swing.JFrame {
         lbTahun.setText("2015");
 
         lbNamaEmail1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        lbNamaEmail1.setText("<html>  <p>Muhamad Mashudi Ardi Winata</p> <p><b>E-mail :</b> muhamadmashudiardiwinata@gmail.com</p><p></p> <p>Faidl Fahrudin Nawa</p> <p><b>E-mail : </b></p> </html>"); // NOI18N
+        lbNamaEmail1.setText("<html>  <p>Muhamad Mashudi Ardi Winata</p> <p><b>E-mail :</b> muhamadmashudiardiwinata@gmail.com</p><p></p> <p>Adam Maulana</p> <p><b>E-mail :</b> </p><p></p> <p>Faidl Fahrudin Nawa</p> <p><b>E-mail : </b></p> </html>"); // NOI18N
 
         btDonasi.setBackground(new java.awt.Color(0, 0, 204));
         btDonasi.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
@@ -107,7 +107,7 @@ public class HubungiDeveloper extends javax.swing.JFrame {
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbNamaEmail1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 267, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 226, Short.MAX_VALUE)
                 .addComponent(btDonasi, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15)
                 .addComponent(lbTahun)
