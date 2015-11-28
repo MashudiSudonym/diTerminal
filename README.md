@@ -7,3 +7,5 @@ Nama "diTerminal" dipilih dari nama asli aplikasi terminal atau tampilan command
 "diTerminal" Bebas dan Open Source. Siapapun dapat memperbanyak, memodifikasi tanpa ijin. Namun, diharapkan untuk tidak memodifikasi "diTerminal" menjadi aplikasi yang buruk, atau menjual Aplikasi "diTerminal" ini tanpa ijin dari developer "diTerminal".
 
 "diTerminal" akan hadir dalam 3 platform yaitu Linux (.jar), Windows (.exe), dan Android.
+
+2015
