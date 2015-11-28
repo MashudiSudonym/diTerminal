@@ -1,3 +1,6 @@
+# diTerminal
+## Aplikasi Belajar Command Line Sistem Operasi Berbasis Linux
+
 "diTerminal" adalah aplikasi yang ditujukan untuk media belajar bagi pengguna Linux pemula yang ingin belajar tentang dasar dari Command Line, dan Sistem Operasi Linux.
 
 Aplikasi ini pada dasarnya terinspirasi dari Aplikasi "Otodidak" karya Ade Malsasa Akbar yang sama-sama memiliki prinsip click n run, dan Materi yang kami developer dapatkan pada saat kuliah tentang sistem operasi.
