@@ -98,7 +98,7 @@ public class MisiEkstra extends javax.swing.JFrame {
             }
         });
 
-        btLinux.setText("jButton1");
+        btLinux.setText("Linux");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
