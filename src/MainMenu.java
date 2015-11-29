@@ -241,13 +241,9 @@ public class MainMenu extends javax.swing.JFrame {
 
     private void btAturanMisiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btAturanMisiActionPerformed
         // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "ATURAN MISI akan tersedia di versi alpha 0.2",
-                "ATURAN MISI",
-                JOptionPane.INFORMATION_MESSAGE
-        );
+        // panggil jendela AturanMisi
+        this.dispose();
+        new AturanMisi().setVisible(true);
     }//GEN-LAST:event_btAturanMisiActionPerformed
 
     /**
