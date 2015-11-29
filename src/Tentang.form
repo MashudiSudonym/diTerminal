@@ -169,7 +169,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica" size="12" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;a href=&quot;https://github.com/diTerminal/diTerminal&quot;&gt;https://github.com/diTerminal/diTerminal&lt;/a&gt;&lt;/html&gt;" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;a href=&quot;https://github.com/MashudiSudonym/diTerminal&quot;&gt;https://github.com/MashudiSudonym/diTerminal&lt;/a&gt;&lt;/html&gt;" noResource="true"/>
       </Properties>
     </Component>
   </SubComponents>

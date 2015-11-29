@@ -96,7 +96,7 @@ public class Tentang extends javax.swing.JFrame {
         });
 
         lbgithub.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        lbgithub.setText("<html><a href=\"https://github.com/diTerminal/diTerminal\">https://github.com/diTerminal/diTerminal</a></html>"); // NOI18N
+        lbgithub.setText("<html><a href=\"https://github.com/MashudiSudonym/diTerminal\">https://github.com/MashudiSudonym/diTerminal</a></html>"); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
