@@ -122,7 +122,7 @@ public class HubungiDeveloper extends javax.swing.JFrame {
         
         JOptionPane.showMessageDialog(
                 rootPane,
-                "Kami Menerima Donasi dalam nominal berapapun.\n"
+                "Aplikasi ini sepenuhnya GRATIS, dan BEBAS. Namun, kami menerima Donasi dalam nominal berapapun.\n"
                         + "\nDonasi kami gunakan untuk proses pengembangan lebih lanjut dari aplikasi diTerminal ini.\n"
                         + "\nUntuk informasi lebih detail. Kontak kami di :\n \nmuhamadmashudiardiwinata@gmail.com \n",
                 "Donasi",
