@@ -63,7 +63,7 @@ public class HubungiDeveloper extends javax.swing.JFrame {
         lbTahun.setText("2015");
 
         lbNamaEmail1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        lbNamaEmail1.setText("<html>  <p><b>Developer Desktop version : </b></p><p>Muhamad Mashudi Ardi Winata</p> <p><b>E-mail :</b> muhamadmashudiardiwinata@gmail.com</p><p></p> <p><b>Developer Android version : </b></p><p>Faidl Fahruddin Nawa</p> <p><b>E-mail : </b></p><p></p> <p><b>Desain dan Software Tester : </b></p> <p>Adam Maulana</p> <p><b>E-mail :</b> </p><p></p></html>"); // NOI18N
+        lbNamaEmail1.setText("<html>  <p><b>Developer Desktop version : </b></p><p>Muhamad Mashudi Ardi Winata</p> <p><b>E-mail :</b> muhamadmashudiardiwinata@gmail.com</p><p></p> <p><b>Developer Android version : </b></p><p>Faidl Fahruddin Nawa</p> <p><b>E-mail : </b></p><p></p> <p><b>Software Tester : </b></p> <p>Adam Maulana</p> <p><b>E-mail :</b> </p><p></p></html>"); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
