@@ -121,6 +121,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/img/back.png"/>
         </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Kembali"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btBackActionPerformed"/>
@@ -134,6 +135,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/img/home.png"/>
         </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Rumah"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btHomeActionPerformed"/>
@@ -151,6 +153,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="MISI PRAKTIKUM 9"/>
+        <Property name="toolTipText" type="java.lang.String" value="Misi Praktikum 9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btPraktikum9ActionPerformed"/>
@@ -168,6 +171,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="MISI PRAKTIKUM 10"/>
+        <Property name="toolTipText" type="java.lang.String" value="Misi Praktikum 10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btPraktikum10ActionPerformed"/>
@@ -185,6 +189,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="MISI PRAKTIKUM 11"/>
+        <Property name="toolTipText" type="java.lang.String" value="Misi Praktikum 11"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btPraktikum11ActionPerformed"/>

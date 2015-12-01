@@ -88,6 +88,7 @@ public class Misi2 extends javax.swing.JFrame {
 
         btBack.setBackground(new java.awt.Color(51, 51, 51));
         btBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/back.png"))); // NOI18N
+        btBack.setToolTipText("Rumah");
         btBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btBackActionPerformed(evt);
@@ -96,6 +97,7 @@ public class Misi2 extends javax.swing.JFrame {
 
         btHome.setBackground(new java.awt.Color(51, 51, 51));
         btHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/home.png"))); // NOI18N
+        btHome.setToolTipText("Rumah");
         btHome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btHomeActionPerformed(evt);
@@ -106,6 +108,7 @@ public class Misi2 extends javax.swing.JFrame {
         btPraktikum5.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btPraktikum5.setForeground(new java.awt.Color(255, 255, 255));
         btPraktikum5.setText("MISI PRAKTIKUM 5");
+        btPraktikum5.setToolTipText("Misi Praktikum 5");
         btPraktikum5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btPraktikum5ActionPerformed(evt);
@@ -126,6 +129,7 @@ public class Misi2 extends javax.swing.JFrame {
         btPraktikum7.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btPraktikum7.setForeground(new java.awt.Color(255, 255, 255));
         btPraktikum7.setText("MISI PRAKTIKUM 7");
+        btPraktikum7.setToolTipText("Misi Praktikum 7");
         btPraktikum7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btPraktikum7ActionPerformed(evt);
@@ -136,6 +140,7 @@ public class Misi2 extends javax.swing.JFrame {
         btPraktikum8.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btPraktikum8.setForeground(new java.awt.Color(255, 255, 255));
         btPraktikum8.setText("MISI PRAKTIKUM 8");
+        btPraktikum8.setToolTipText("Misi Praktikum 8");
         btPraktikum8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btPraktikum8ActionPerformed(evt);

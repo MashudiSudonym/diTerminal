@@ -85,6 +85,7 @@ public class AturanMisi extends javax.swing.JFrame {
 
         btBack.setBackground(new java.awt.Color(51, 51, 51));
         btBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/back.png"))); // NOI18N
+        btBack.setToolTipText("Kembali");
         btBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btBackActionPerformed(evt);
@@ -93,6 +94,7 @@ public class AturanMisi extends javax.swing.JFrame {
 
         btHome.setBackground(new java.awt.Color(51, 51, 51));
         btHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/home.png"))); // NOI18N
+        btHome.setToolTipText("Rumah");
         btHome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btHomeActionPerformed(evt);

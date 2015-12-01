@@ -230,13 +230,9 @@ public class MainMenu extends javax.swing.JFrame {
 
     private void btMisiEkstraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btMisiEkstraActionPerformed
         // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI EKSTRA akan tersedia di versi alpha 0.2",
-                "MISI EKSTRA",
-                JOptionPane.INFORMATION_MESSAGE
-        );
+        // panggil jendela Misi Ekstra
+        this.dispose();
+        new MisiEkstra().setVisible(true);
     }//GEN-LAST:event_btMisiEkstraActionPerformed
 
     private void btAturanMisiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btAturanMisiActionPerformed

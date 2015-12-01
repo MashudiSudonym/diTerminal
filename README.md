@@ -12,4 +12,4 @@ Nama "diTerminal" dipilih dari nama asli aplikasi terminal atau tampilan command
 "diTerminal" akan hadir dalam 3 platform yaitu Linux (.jar), Windows (.exe), dan Android.
 
 ### Unduh diTerminal versi build alpha 0.1.5
-https://mega.nz/#!MdEHWDbD
+http://s.id/2b
