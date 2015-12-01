@@ -52,7 +52,6 @@ public class HubungiDeveloper extends javax.swing.JFrame {
         jSeparator1 = new javax.swing.JSeparator();
         lbTahun = new javax.swing.JLabel();
         lbNamaEmail1 = new javax.swing.JLabel();
-        btDonasi = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Developer");
@@ -64,20 +63,7 @@ public class HubungiDeveloper extends javax.swing.JFrame {
         lbTahun.setText("2015");
 
         lbNamaEmail1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        lbNamaEmail1.setText("<html>  <p>Muhamad Mashudi Ardi Winata</p> <p><b>E-mail :</b> muhamadmashudiardiwinata@gmail.com</p><p></p> <p>Adam Maulana</p> <p><b>E-mail :</b> </p><p></p> <p>Faidl Fahruddin Nawa</p> <p><b>E-mail : </b></p> </html>"); // NOI18N
-
-        btDonasi.setBackground(new java.awt.Color(0, 0, 204));
-        btDonasi.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btDonasi.setForeground(new java.awt.Color(255, 255, 255));
-        btDonasi.setText("DONASI"); // NOI18N
-        btDonasi.setToolTipText("donasi");
-        btDonasi.setBorder(null);
-        btDonasi.setBorderPainted(false);
-        btDonasi.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btDonasiActionPerformed(evt);
-            }
-        });
+        lbNamaEmail1.setText("<html>  <p><b>Developer Desktop version : </b></p><p>Muhamad Mashudi Ardi Winata</p> <p><b>E-mail :</b> muhamadmashudiardiwinata@gmail.com</p><p></p> <p><b>Developer Android version : </b></p><p>Faidl Fahruddin Nawa</p> <p><b>E-mail : </b></p><p></p> <p><b>Desain dan Software Tester : </b></p> <p>Adam Maulana</p> <p><b>E-mail :</b> </p><p></p></html>"); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -86,7 +72,6 @@ public class HubungiDeveloper extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btDonasi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jSeparator1)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -108,26 +93,12 @@ public class HubungiDeveloper extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbNamaEmail1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 226, Short.MAX_VALUE)
-                .addComponent(btDonasi, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
                 .addComponent(lbTahun)
                 .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btDonasiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btDonasiActionPerformed
-        // TODO add your handling code here:
-        
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "Aplikasi ini sepenuhnya GRATIS, dan BEBAS. Namun, kami menerima Donasi dalam nominal berapapun.\n"
-                        + "\nDonasi kami gunakan untuk proses pengembangan lebih lanjut dari aplikasi diTerminal ini.\n"
-                        + "\nUntuk informasi lebih detail. Kontak kami di :\n \nmuhamadmashudiardiwinata@gmail.com \n",
-                "Donasi",
-                JOptionPane.PLAIN_MESSAGE);
-    }//GEN-LAST:event_btDonasiActionPerformed
 
     /**
      * @param args the command line arguments
@@ -165,7 +136,6 @@ public class HubungiDeveloper extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btDonasi;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel lbJudulDeveloper;
     private javax.swing.JLabel lbNamaEmail1;
