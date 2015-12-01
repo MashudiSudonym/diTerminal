@@ -170,6 +170,9 @@
         <Property name="text" type="java.lang.String" value="LINUX"/>
         <Property name="toolTipText" type="java.lang.String" value="Linux"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btLinuxActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btKernel">
       <Properties>
@@ -185,6 +188,9 @@
         <Property name="text" type="java.lang.String" value="KERNEL"/>
         <Property name="toolTipText" type="java.lang.String" value="Kernel"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btKernelActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btGNU">
       <Properties>
@@ -200,6 +206,9 @@
         <Property name="text" type="java.lang.String" value="GNU"/>
         <Property name="toolTipText" type="java.lang.String" value="GNU"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btGNUActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btRepositori">
       <Properties>
@@ -215,6 +224,9 @@
         <Property name="text" type="java.lang.String" value="REPOSITORI"/>
         <Property name="toolTipText" type="java.lang.String" value="Repositori"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btRepositoriActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btFreeSoftware">
       <Properties>
@@ -230,6 +242,9 @@
         <Property name="text" type="java.lang.String" value="FREE SOFTWARE"/>
         <Property name="toolTipText" type="java.lang.String" value="Free Software"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btFreeSoftwareActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

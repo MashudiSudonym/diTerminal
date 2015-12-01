@@ -109,30 +109,55 @@ public class MisiEkstra extends javax.swing.JFrame {
         btLinux.setForeground(new java.awt.Color(255, 255, 255));
         btLinux.setText("LINUX");
         btLinux.setToolTipText("Linux");
+        btLinux.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btLinuxActionPerformed(evt);
+            }
+        });
 
         btKernel.setBackground(new java.awt.Color(51, 51, 51));
         btKernel.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btKernel.setForeground(new java.awt.Color(255, 255, 255));
         btKernel.setText("KERNEL");
         btKernel.setToolTipText("Kernel");
+        btKernel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btKernelActionPerformed(evt);
+            }
+        });
 
         btGNU.setBackground(new java.awt.Color(51, 51, 51));
         btGNU.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btGNU.setForeground(new java.awt.Color(255, 255, 255));
         btGNU.setText("GNU");
         btGNU.setToolTipText("GNU");
+        btGNU.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btGNUActionPerformed(evt);
+            }
+        });
 
         btRepositori.setBackground(new java.awt.Color(51, 51, 51));
         btRepositori.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btRepositori.setForeground(new java.awt.Color(255, 255, 255));
         btRepositori.setText("REPOSITORI");
         btRepositori.setToolTipText("Repositori");
+        btRepositori.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btRepositoriActionPerformed(evt);
+            }
+        });
 
         btFreeSoftware.setBackground(new java.awt.Color(51, 51, 51));
         btFreeSoftware.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btFreeSoftware.setForeground(new java.awt.Color(255, 255, 255));
         btFreeSoftware.setText("FREE SOFTWARE");
         btFreeSoftware.setToolTipText("Free Software");
+        btFreeSoftware.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btFreeSoftwareActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -200,6 +225,61 @@ public class MisiEkstra extends javax.swing.JFrame {
         this.dispose();
         new Main().setVisible(true);
     }//GEN-LAST:event_btHomeActionPerformed
+
+    private void btLinuxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btLinuxActionPerformed
+        // TODO add your handling code here:
+        // Informasi fitur
+        JOptionPane.showMessageDialog(
+                rootPane,
+                "LINUX akan tersedia di versi alpha 0.2",
+                "LINUX",
+                JOptionPane.INFORMATION_MESSAGE
+        );
+    }//GEN-LAST:event_btLinuxActionPerformed
+
+    private void btGNUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btGNUActionPerformed
+        // TODO add your handling code here:
+        // Informasi fitur
+        JOptionPane.showMessageDialog(
+                rootPane,
+                "GNU akan tersedia di versi alpha 0.2",
+                "GNU",
+                JOptionPane.INFORMATION_MESSAGE
+        );
+    }//GEN-LAST:event_btGNUActionPerformed
+
+    private void btFreeSoftwareActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFreeSoftwareActionPerformed
+        // TODO add your handling code here
+        // Informasi fitur
+        JOptionPane.showMessageDialog(
+                rootPane,
+                "Free Software akan tersedia di versi alpha 0.2",
+                "Free Software",
+                JOptionPane.INFORMATION_MESSAGE
+        );
+    }//GEN-LAST:event_btFreeSoftwareActionPerformed
+
+    private void btKernelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btKernelActionPerformed
+        // TODO add your handling code here:
+        // Informasi fitur
+        JOptionPane.showMessageDialog(
+                rootPane,
+                "Kernel akan tersedia di versi alpha 0.2",
+                "Kernel",
+                JOptionPane.INFORMATION_MESSAGE
+        );
+    }//GEN-LAST:event_btKernelActionPerformed
+
+    private void btRepositoriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btRepositoriActionPerformed
+        // TODO add your handling code here:
+        // Informasi fitur
+        JOptionPane.showMessageDialog(
+                rootPane,
+                "Repositori akan tersedia di versi alpha 0.2",
+                "Repositori",
+                JOptionPane.INFORMATION_MESSAGE
+        );
+    }//GEN-LAST:event_btRepositoriActionPerformed
 
     /**
      * @param args the command line arguments
