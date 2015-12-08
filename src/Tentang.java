@@ -74,7 +74,7 @@ public class Tentang extends javax.swing.JFrame {
         lbSubJudulAplikasi.setText("Aplikasi Belajar Command Line Sistem Operasi Berbasis Linux"); // NOI18N
 
         lbVersi.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        lbVersi.setText("Versi Alpha 0.1.5"); // NOI18N
+        lbVersi.setText("Versi Alpha 0.1.6"); // NOI18N
 
         jTextPane1.setEditable(false);
         jTextPane1.setBorder(null);

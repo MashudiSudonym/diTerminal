@@ -168,6 +168,7 @@
         <Component class="javax.swing.JTextPane" name="jTextPane1">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="Setiap pemakai LINUX harus mempunyai nama login (user account) yang sebelumnya harus didaftarkan pada administrator system.&#xa;&#xa;Nama login umumnya dibatasi maksimum 8 karakter dan umumnya dalam huruf kecil. Prompt dari shell bash pada LINUX menggunakan tanda &#x201c;$&#x201d;.&#xa;&#xa;Sebuah sesi LINUX terdiri dari :&#xa;&#xa;1. Login&#xa;2. Bekerja dengan Shell / menjalankan aplikasi&#xa;3. Logout&#xa;&#xa;Sesi ini tergantung atas shell yang digunakan, pada Linux bash maka pada proses login akan mengeksekusi program /etc/profile (untuk semua pemakai) dan file .base_profile di direktori awal (HOME) masing- masing.&#xa;&#xa;Pada saat logout, maka program shell bash akan mengeksekusi script yang bernama .bash_logout.&#xa;&#xa;" noResource="true"/>
           </Properties>
         </Component>
       </SubComponents>

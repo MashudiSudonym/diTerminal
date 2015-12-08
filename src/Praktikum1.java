@@ -113,6 +113,7 @@ public class Praktikum1 extends javax.swing.JFrame {
         });
 
         jTextPane1.setEditable(false);
+        jTextPane1.setText("Setiap pemakai LINUX harus mempunyai nama login (user account) yang sebelumnya harus didaftarkan pada administrator system.\n\nNama login umumnya dibatasi maksimum 8 karakter dan umumnya dalam huruf kecil. Prompt dari shell bash pada LINUX menggunakan tanda “$”.\n\nSebuah sesi LINUX terdiri dari :\n\n1. Login\n2. Bekerja dengan Shell / menjalankan aplikasi\n3. Logout\n\nSesi ini tergantung atas shell yang digunakan, pada Linux bash maka pada proses login akan mengeksekusi program /etc/profile (untuk semua pemakai) dan file .base_profile di direktori awal (HOME) masing- masing.\n\nPada saat logout, maka program shell bash akan mengeksekusi script yang bernama .bash_logout.\n\n"); // NOI18N
         jScrollPane1.setViewportView(jTextPane1);
 
         jLabel2.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
