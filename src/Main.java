@@ -50,7 +50,6 @@ public class Main extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         lbJudul = new javax.swing.JLabel();
         lbSubJudul = new javax.swing.JLabel();
-        imgTerminal = new javax.swing.JLabel();
         btMainMenu = new javax.swing.JButton();
         btTentang = new javax.swing.JButton();
 
@@ -76,30 +75,30 @@ public class Main extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(lbJudul)
-                    .addComponent(lbSubJudul))
-                .addGap(331, 331, 331))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(150, 150, 150)
+                        .addComponent(lbSubJudul))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(303, 303, 303)
+                        .addComponent(lbJudul)))
+                .addContainerGap(161, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
+                .addGap(22, 22, 22)
                 .addComponent(lbJudul)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbSubJudul)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
 
-        imgTerminal.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/clear_terminal.png"))); // NOI18N
-        imgTerminal.setPreferredSize(new java.awt.Dimension(709, 588));
-
-        btMainMenu.setBackground(new java.awt.Color(50, 113, 224));
+        btMainMenu.setBackground(new java.awt.Color(51, 51, 51));
         btMainMenu.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
         btMainMenu.setForeground(new java.awt.Color(255, 255, 255));
-        btMainMenu.setText("MAIN MENU");
+        btMainMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/ikonbtnmainmenu.png"))); // NOI18N
         btMainMenu.setToolTipText("Ke Daftar Praktikum"); // NOI18N
         btMainMenu.setBorder(null);
         btMainMenu.setBorderPainted(false);
@@ -110,7 +109,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         btTentang.setBackground(new java.awt.Color(50, 113, 224));
-        btTentang.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
+        btTentang.setFont(new java.awt.Font("Helvetica", 1, 12)); // NOI18N
         btTentang.setForeground(new java.awt.Color(255, 255, 255));
         btTentang.setText("TENTANG");
         btTentang.setToolTipText("Tentang diTerminal");
@@ -126,31 +125,32 @@ public class Main extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1066, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addGap(130, 130, 130)
-                .addComponent(btMainMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 330, Short.MAX_VALUE)
-                .addComponent(btTentang, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(106, 106, 106))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(imgTerminal, javax.swing.GroupLayout.PREFERRED_SIZE, 544, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(254, 254, 254))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 706, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(289, 289, 289)
+                        .addComponent(btTentang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(306, 306, 306))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(247, 247, 247)
+                        .addComponent(btMainMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(261, 261, 261)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btMainMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btTentang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
-                .addComponent(imgTerminal, javax.swing.GroupLayout.PREFERRED_SIZE, 443, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addComponent(btMainMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 101, Short.MAX_VALUE)
+                .addComponent(btTentang, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(41, 41, 41))
         );
 
-        pack();
+        setSize(new java.awt.Dimension(699, 530));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btMainMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btMainMenuActionPerformed
@@ -219,7 +219,6 @@ public class Main extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btMainMenu;
     private javax.swing.JButton btTentang;
-    private javax.swing.JLabel imgTerminal;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lbJudul;
     private javax.swing.JLabel lbSubJudul;
