@@ -1,0 +1,17 @@
+# Site settings
+title: Mashudi Blog
+header-img: img/home-bg.jpg
+description: "Blog catatan kuliah, linux, dan Free Open Source Software"
+baseurl: ""
+url: "http://mashudisudonym.github.io"
+email: muhamadmashudiardiwinata@gmail.com
+twitter_username: MashudiCastol
+github_username:  MashudiSudonym
+facebook_username:  muhamadmashudiardiwinata
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
