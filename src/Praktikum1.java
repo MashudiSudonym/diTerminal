@@ -24,12 +24,12 @@ import javax.swing.JOptionPane;
  *
  * @author diTerminal Team
  */
-public class Misi3 extends javax.swing.JFrame {
+public class Praktikum1 extends javax.swing.JFrame {
 
     /**
-     * Creates new form Misi3
+     * Creates new form Praktikum1
      */
-    public Misi3() {
+    public Praktikum1() {
         initComponents();
         
         // Center Window
@@ -50,37 +50,48 @@ public class Misi3 extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         btBack = new javax.swing.JButton();
         btHome = new javax.swing.JButton();
-        btPraktikum9 = new javax.swing.JButton();
-        btPraktikum10 = new javax.swing.JButton();
-        btPraktikum11 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextPane1 = new javax.swing.JTextPane();
+        jLabel2 = new javax.swing.JLabel();
+        btNext = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("diTerminal - Misi 3");
+        setTitle("diTerminal - Praktikum 1");
 
-        jPanel1.setBackground(new java.awt.Color(50, 113, 224));
+        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
 
         jLabel1.setFont(new java.awt.Font("Helvetica", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("MISI diTerminal");
+        jLabel1.setText("Praktikum1");
+
+        jLabel3.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel3.setText("Perintah Dasar Sistem Operasi Linux");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(318, 318, 318)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(321, 321, 321))
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(44, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(22, 22, 22)
                 .addComponent(jLabel1)
-                .addGap(41, 41, 41))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3)
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         btBack.setBackground(new java.awt.Color(51, 51, 51));
@@ -101,36 +112,19 @@ public class Misi3 extends javax.swing.JFrame {
             }
         });
 
-        btPraktikum9.setBackground(new java.awt.Color(50, 113, 224));
-        btPraktikum9.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btPraktikum9.setForeground(new java.awt.Color(255, 255, 255));
-        btPraktikum9.setText("MISI PRAKTIKUM 9");
-        btPraktikum9.setToolTipText("Misi Praktikum 9");
-        btPraktikum9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btPraktikum9ActionPerformed(evt);
-            }
-        });
+        jTextPane1.setEditable(false);
+        jScrollPane1.setViewportView(jTextPane1);
 
-        btPraktikum10.setBackground(new java.awt.Color(50, 113, 224));
-        btPraktikum10.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btPraktikum10.setForeground(new java.awt.Color(255, 255, 255));
-        btPraktikum10.setText("MISI PRAKTIKUM 10");
-        btPraktikum10.setToolTipText("Misi Praktikum 10");
-        btPraktikum10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btPraktikum10ActionPerformed(evt);
-            }
-        });
+        jLabel2.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel2.setText("Dasar Teori");
 
-        btPraktikum11.setBackground(new java.awt.Color(50, 113, 224));
-        btPraktikum11.setFont(new java.awt.Font("Helvetica", 1, 18)); // NOI18N
-        btPraktikum11.setForeground(new java.awt.Color(255, 255, 255));
-        btPraktikum11.setText("MISI PRAKTIKUM 11");
-        btPraktikum11.setToolTipText("Misi Praktikum 11");
-        btPraktikum11.addActionListener(new java.awt.event.ActionListener() {
+        btNext.setBackground(new java.awt.Color(51, 51, 51));
+        btNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/next.png"))); // NOI18N
+        btNext.setToolTipText("Maju");
+        btNext.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btPraktikum11ActionPerformed(evt);
+                btNextActionPerformed(evt);
             }
         });
 
@@ -143,61 +137,38 @@ public class Misi3 extends javax.swing.JFrame {
                 .addGap(57, 57, 57)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btPraktikum9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(191, 191, 191)
-                        .addComponent(btPraktikum10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btBack)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btHome))
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 659, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(225, 225, 225)
-                        .addComponent(btPraktikum11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(222, 222, 222)))
-                .addGap(58, 58, 58))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jScrollPane1)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btBack)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btHome)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btNext, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(58, 58, 58))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 88, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btPraktikum9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btPraktikum10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
-                .addComponent(btPraktikum11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addGap(5, 5, 5)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 411, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btBack, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btHome, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btHome, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btNext, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(33, 33, 33))
         );
 
-        setSize(new java.awt.Dimension(828, 542));
+        setSize(new java.awt.Dimension(1076, 680));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btPraktikum10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPraktikum10ActionPerformed
-        // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI PRAKTIKUM 10 akan tersedia di versi alpha 0.2",
-                "MISI PRAKTIKUM 10",
-                JOptionPane.INFORMATION_MESSAGE
-        );
-    }//GEN-LAST:event_btPraktikum10ActionPerformed
-
-    private void btPraktikum11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPraktikum11ActionPerformed
-        // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI PRAKTIKUM 11 akan tersedia di versi alpha 0.2",
-                "MISI PRAKTIKUM 11",
-                JOptionPane.INFORMATION_MESSAGE
-        );
-    }//GEN-LAST:event_btPraktikum11ActionPerformed
 
     private void btBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btBackActionPerformed
         // TODO add your handling code here:
@@ -213,16 +184,9 @@ public class Misi3 extends javax.swing.JFrame {
         new Main().setVisible(true);
     }//GEN-LAST:event_btHomeActionPerformed
 
-    private void btPraktikum9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPraktikum9ActionPerformed
+    private void btNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btNextActionPerformed
         // TODO add your handling code here:
-        // Informasi fitur
-        JOptionPane.showMessageDialog(
-                rootPane,
-                "MISI PRAKTIKUM 9 akan tersedia di versi alpha 0.2",
-                "MISI PRAKTIKUM 9",
-                JOptionPane.INFORMATION_MESSAGE
-        );
-    }//GEN-LAST:event_btPraktikum9ActionPerformed
+    }//GEN-LAST:event_btNextActionPerformed
 
     /**
      * @param args the command line arguments
@@ -254,7 +218,7 @@ public class Misi3 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Misi3().setVisible(true);
+                new Praktikum1().setVisible(true);
             }
         });
     }
@@ -262,10 +226,12 @@ public class Misi3 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btBack;
     private javax.swing.JButton btHome;
-    private javax.swing.JButton btPraktikum10;
-    private javax.swing.JButton btPraktikum11;
-    private javax.swing.JButton btPraktikum9;
+    private javax.swing.JButton btNext;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
 }
